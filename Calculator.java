@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 public class Calculator
 {
 	public static void main(String[] args)
@@ -7,7 +7,7 @@ public class Calculator
 		int b=2;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the operators: (+,-,*,/)");
-		String optr=sc.next();
+		String optr=sc.nextLine();
 		if(optr.equals("+"))
 		{
 		System.out.println("Sum: "+(a+b));
