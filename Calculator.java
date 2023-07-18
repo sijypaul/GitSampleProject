@@ -6,9 +6,10 @@ public class Calculator
 	{
 		int a=20;
 		int b=2;
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the operators (+,-,*,/)::");
-		String optr=sc.nextLine();
+		//Scanner sc=new Scanner(System.in);
+		//System.out.println("Enter the operators (+,-,*,/)::");
+		String optr=args[0];
+		
 		if(optr.equals("+"))
 		{
 		System.out.println("Sum: "+(a+b));
