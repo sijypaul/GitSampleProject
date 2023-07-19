@@ -4,12 +4,13 @@ public class Calculator
 {
 	public static void main(String[] args) 
 	{
-		int a=20;
+		int a=2500;
 		int b=2;
 		//Scanner sc=new Scanner(System.in);
 		//System.out.println("Enter the operators (+,-,*,/)::");
 		String optr=args[0];
-		
+
+		System.out.println("..............Calculator................");
 		if(optr.equals("+"))
 		{
 		System.out.println("Sum: "+(a+b));
