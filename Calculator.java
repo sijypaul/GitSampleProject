@@ -5,7 +5,7 @@ public class Calculator
 	public static void main(String[] args) 
 	{
 		int a=2500;
-		int b=2;
+		int b=25;
 		//Scanner sc=new Scanner(System.in);
 		//System.out.println("Enter the operators (+,-,*,/)::");
 		String optr=args[0];
